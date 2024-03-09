@@ -83,7 +83,7 @@ if st.button('Predict Body Fat Percentage'):
 
 # Display the uploaded image
 st.subheader('Body_Fat_Description')
-st.image('body_desc_img.jpg', width=290)
+st.image('body_desc_img.jpg', width=320)
 
 # import os
 # image_path = os.path.abspath('body_desc_img.png')

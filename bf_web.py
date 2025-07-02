@@ -62,7 +62,7 @@ height = st.number_input('Enter Height (cm)', min_value=0.0, step=0.1)
 neck_size = st.number_input('Enter Neck Size (cm)', min_value=0.0, step=0.1)
 hip_size = st.number_input('Enter Hip Size (cm)', min_value=0.0, step=0.1)
 waist_size = st.number_input('Enter Waist Size (cm)', min_value=0.0, step=0.1)
-BMI = st.number_input('Enter BMI  (weight in kg / height in meters squared)', min_value=0.0, step=0.1)
+# BMI = st.number_input('Enter BMI  (weight in kg / height in meters squared)', min_value=0.0, step=0.1)
 
 # Create a DataFrame from user input
 user_data = pd.DataFrame({
@@ -70,7 +70,7 @@ user_data = pd.DataFrame({
     'Neck_Size': [neck_size],
     'Hip_Size': [hip_size],
     'Waist_Size': [waist_size],
-    'BMI': [BMI]
+    # 'BMI': [BMI]
 })
 
 # Make predictions
